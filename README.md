@@ -109,7 +109,6 @@ If you want to rebuild from raw HMDA data:
 - Expand to national data for 2018-2024 to enable time-series trend analysis
 - Add Bayesian Improved Surname Geocoding (BISG) for proxy race estimation on records where race was not self-reported
 - Integrate [SolasAI disparity library](https://github.com/SolasAI/solas-ai-disparity) for statistically rigorous AIR with Fisher's exact test significance flags
-- Hypothesis: fair lending metrics deteriorated during periods of reduced CFPB enforcement activity (2018-2020, 2025-present)
 
 ## Acknowledgments
 
