@@ -15,7 +15,8 @@ st.caption(
     "credit score, LTV, or DTI. Use as a screening tool only."
 )
 
-DB_PATH = "data/hmda_2024.duckdb"
+import os
+DB_PATH = os.path.join(os.path.dirname(__file__), "data", "hmda_2024.duckdb")
 
 @st.cache_data
 def load():
