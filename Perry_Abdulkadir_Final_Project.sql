@@ -138,7 +138,7 @@ CREATE OR REPLACE STAGE BADGER_DB.RAW.HMDA_STAGE
         NULL_IF = ('', 'NA', 'Exempt')
     );
 
-// Had to run this once in order to upload data via Snowflake connector instead of UI since UI upload was failing. Bypasses TFA for ten minutes so I could login with just my password. 
+-- Had to run this once in order to upload data via Snowflake connector instead of UI since UI upload was failing. Bypasses TFA for ten minutes so I could login with just my password. 
 -- ALTER USER BADGER SET MINS_TO_BYPASS_MFA = 10;
 
 
