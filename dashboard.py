@@ -16,7 +16,7 @@ st.caption(
 )
 
 import os
-DB_PATH = os.path.join(os.path.dirname(__file__), "data", "hmda_2024.duckdb")
+DB_PATH = os.path.join(os.path.dirname(__file__), "Data", "hmda_2024.duckdb")
 
 @st.cache_data
 def load():
