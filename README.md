@@ -4,7 +4,7 @@ An interactive fair lending analysis dashboard built on 2024 Home Mortgage Discl
 
 ## Live Demo
 
-*Coming soon — Streamlit Community Cloud deployment in progress*
+[Streamlit Community Cloud deployment](https://hmda-fair-lending-dashboard-hw7pxn5ibzqkvjhhycjnso.streamlit.app/)
 
 ## Background
 
